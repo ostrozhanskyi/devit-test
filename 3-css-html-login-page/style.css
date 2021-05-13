@@ -1,0 +1,28 @@
+body{
+  background: url(tile.jpg);
+  background-size: cover;
+}
+form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.4);
+  border: 0;
+  border-radius: 10px;
+}
+form h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+.input{
+  margin: 5px;
+  text-align: center;
+}
+.btn input{
+  min-width: 100px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #adebeb;
+  color: #000;
+}
