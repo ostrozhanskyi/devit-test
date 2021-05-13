@@ -1,0 +1,11 @@
+git clone git@example.com:example/test.git #Клонирование репозитория по ssh
+#Доступ требует пароля(если он установлен на ssh ключ)
+#По умолчанию директория будет названа идентично с клонированым репозиторием
+#Перехожу в "test" и переключаюсь на другую ветку(master по умолчанию)
+cd test #Перехожу в "test" 
+git checkout dev #Переключаюсь на другую ветку(master по умолчанию)
+echo "### May be in future" >> README.md #Создаю файл "README.md"
+git add README.md #Добавляю файл для коммита
+git commit -m "I've done something" #Cохраняю изменения
+git push -u origin dev #Отправляю в удаленный репозиторий(может потребоватся
+#пароль
